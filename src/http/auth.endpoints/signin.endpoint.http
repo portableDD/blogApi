@@ -1,0 +1,13 @@
+
+POST  http://localhost:3000/auth/sign-in
+Content-Type: application/json
+{
+    "email": "email@user.com",
+    "password": "@Password123"
+}
+
+POST  http://localhost:3000/auth/refresh-token 
+Content-Type: application/json
+{
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjYsImlhdCI6MTczNzM4NTQxOCwiZXhwIjoxNzQ1MTYxNDE4LCJhdWQiOiJsb2NhbGhvc3Q6MzAwMCIsImlzcyI6ImxvY2FsaG9zdDozMDAwIn0.Zb_g40n9oQDPC9AhpTeily82BlAVYSLVl8TXr2ruM1s"
+}

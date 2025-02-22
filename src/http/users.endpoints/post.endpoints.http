@@ -1,0 +1,27 @@
+POST  http://localhost:3000/auth
+Content-Type: application/json
+{
+    "email": "email@user.com",
+    "password": "@Password123"
+}
+POST  http://localhost:3000/users
+Content-Type: application/json
+{
+    "firstName": "Deess",
+    "lastName": "everss",
+    "email": "user@gmail.com",
+    "password": "@Password123"
+}
+
+POST  http://localhost:3000/users/many-users
+Content-Type: application/json
+{
+    "users": [
+        {
+            "firstName": "Deess",
+            "lastName": "everss",
+            "email": "users@gmail.com",
+            "password": "@Password123"
+        }
+    ]
+}

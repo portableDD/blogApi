@@ -1,0 +1,13 @@
+
+GET http://localhost:3000/tags
+
+
+DELETE  http://localhost:3000/tags?id=1
+
+POST  http://localhost:3000/tags
+Content-Type: application/json
+{
+    "name": "Javascript",
+    "slug" : "javascript",
+    "description": "Everything javascript"
+}

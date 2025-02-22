@@ -1,0 +1,26 @@
+
+PATCH http://localhost:3000/posts
+Content-Type: application/json
+{
+    "id": 16,
+    "title": "patch dto",
+    "postType": "series",
+    "postStatus": "published",
+    "content": "@Password123",
+    "metaOptions": {"metaValue": "{\"sidebar\": true}"},
+    "tags": [1,2]
+}
+
+
+
+POST  http://localhost:3000/posts
+Content-Type: application/json
+{
+    "title": "greatest eee",
+    "authorId" : 38,
+    "postType": "series",
+    "postStatus": "published",
+    "content": "I need to populate this guy",
+    "metaOptions": {"metaValue": "{\"sidebar\": true}"},
+    "tags": [1]
+}
